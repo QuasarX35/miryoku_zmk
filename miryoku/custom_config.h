@@ -17,14 +17,24 @@
 // U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 
+//* --------------------------- Remap Normal Layers -------------------------- *//
+// layer name obtained from miryoku_layer_selection.h
+// obtained from #define MIRYOKU_ALTERNATIVES_NUM from miryoku_layer_alternatives.h
+#define MIRYOKU_LAYER_NAV \
+&kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          &u_to_U_GENSHIN,   \
+U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
+
 //* -------------------------- Genshin Keymap Layer -------------------------- *//
-//! remember to add these into the additional config when building in github actions
+//! remember to add these into the additional config when building in github actions (separate with \n)
 // view combo keys in miryoku_babel/miryoku.h
 #define MIRYOKU_LAYER_GENSHIN \
-&kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         &kp NUM_5,         U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-&U_MT(V, Z)        &kp Q,             &kp W,             &kp E,             &kp R,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-&U_MT(X, T),       &kp A,             &kp S,             &kp D,             &kp F,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-U_NP,              U_NP,              &U_LT(U_DONE, ESC),&kp SPC,           &kp LALT,          U_NU,              &u_to_U_BASE,      U_NU,              U_NP,              U_NP
+&kp NUM_1,         &kp NUM_2,         &kp NUM_3,                  &kp NUM_4,         &kp NUM_5,         U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+&U_MT(V, Z)        &kp Q,             &kp W,                      &kp E,             &kp R,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+&U_MT(X, T),       &kp A,             &kp S,                      &kp D,             &kp F,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+U_NP,              U_NP,              &U_LT(U_GENSHIN_EXTRA, ESC),&kp SPC,           &kp LALT,          U_NU,              &u_to_U_BASE,      U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_GENSHIN_EXTRA \
 &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
