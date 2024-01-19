@@ -23,7 +23,7 @@
 #define MIRYOKU_LAYER_NAV \
 &kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          &u_to_U_GENSHIN,   \
+&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          &to U_GENSHIN,   \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
@@ -84,4 +84,4 @@ MIRYOKU_X(GENSHIN_EXTRA,   "Genshin Extra")
 #define U_SYM    8
 #define U_FUN    9
 #define U_GENSHIN   10
-#define U_GENSHIN_EXTRA   11
+#define U_GENSHIN_EXTRA   11    
