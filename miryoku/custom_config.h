@@ -3,10 +3,10 @@
 
 // view combo keys in miryoku_babel/miryoku.h
 #define MIRYOKU_LAYER_GENSHIN \
-&kp NUM_1,         &kp NUM_2,         &kp NUM_3,                  &kp NUM_4,         &kp NUM_5,         U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-&U_MT(V, Z)        &kp Q,             &kp W,                      &kp E,             &kp R,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-&U_MT(X, T),       &kp A,             &kp S,                      &kp D,             &kp F,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-U_NP,              U_NP,              &kp ESC,                    &kp SPC,           &kp LALT,          U_NU,              U_NU,              U_NU,              U_NP,              U_NP
+&kp NUM_1,         &kp NUM_2,         &kp NUM_3,                  &kp NUM_4,         &kp NUM_5,         U_NP,              U_NP,              U_NP,              U_NP,              U_NP,              \
+&U_MT(V, Z)        &kp Q,             &kp W,                      &kp E,             &kp R,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,              \
+&U_MT(X, T),       &kp A,             &kp S,                      &kp D,             &kp F,             U_NP,              U_NP,              U_NP,              U_NP,              U_NP,              \
+U_NP,              U_NP,              &kp ESC,                    &kp SPC,           &kp LALT,          U_NP,              U_NP,              U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
