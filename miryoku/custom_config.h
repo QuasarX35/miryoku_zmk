@@ -5,7 +5,7 @@
 &kp Q,             &kp W,             &kp A,             &kp S,             &kp D,             U_NU,             U_NU,             U_NU,         U_NU,             U_NU, \
 U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             U_NU,             U_NU,             U_NU,         U_NU,             U_NU, \
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             U_NU,             U_NU,             U_NU,         U_NU,             U_NU, \
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_NU,             U_NU,             U_NU,         U_NP,             U_NP
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_NU,             &u_to_U_BASE,     U_NU,         U_NP,             U_NP
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
