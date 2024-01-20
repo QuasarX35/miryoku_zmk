@@ -2,10 +2,17 @@
 // https://github.com/manna-harbour/miryoku
 
 #define MIRYOKU_LAYER_GENSHIN \
-&kp Q,             &kp W,             &kp A,             &kp S,             &kp D,             U_NU,             U_NU,             U_NU,         U_NU,             U_NU, \
-U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             U_NU,             U_NU,             U_NU,         U_NU,             U_NU, \
-U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             U_NU,             U_NU,             U_NU,         U_NU,             U_NU, \
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_NU,             &u_to_U_BASE,     U_NU,         U_NP,             U_NP
+&kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp N5,            U_NU,             U_NU,             U_NU,         U_NU,             U_NU, \
+U_MT(V, Z),        &kp Q,             &kp W,             &kp E,             &kp R,             U_NU,             U_NU,             U_NU,         U_NU,             U_NU, \
+U_MT(X, T),        &kp A,             &kp S,             &kp D,             &kp F,             U_NU,             U_NU,             U_NU,         U_NU,             U_NU, \
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),&kp SPACE,         &kp LALT,          U_NU,             &to U_BASE,     U_NU,         U_NP,             U_NP
+
+// #define MIRYOKU_LAYER_GENSHIN \
+// &kp NUM_1,         &kp NUM_2,         &kp NUM_3,                  &kp NUM_4,         &kp NUM_5,         U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+// &U_MT(V, Z)        &kp Q,             &kp W,                      &kp E,             &kp R,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+// &U_MT(X, T),       &kp A,             &kp S,                      &kp D,             &kp F,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
+// U_NP,              U_NP,              &U_LT(U_GENSHIN_EXTRA, ESC),&kp SPC,           &kp LALT,          U_NU,              &to U_BASE,        U_NU,              U_NP,              U_NP
+
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
