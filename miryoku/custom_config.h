@@ -65,7 +65,7 @@
 &kp NUM_1,         &kp NUM_2,         &kp NUM_3,                  &kp NUM_4,         &kp NUM_5,         U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
 &U_MT(V, Z)        &kp Q,             &kp W,                      &kp E,             &kp R,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
 &U_MT(X, T),       &kp A,             &kp S,                      &kp D,             &kp F,             U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
-U_NP,              U_NP,              &U_LT(U_GENSHIN_EXTRA, ESC),&kp SPC,           &kp LALT,          U_NU,              &u_to_U_BASE,      U_NU,              U_NP,              U_NP
+U_NP,              U_NP,              &U_LT(U_GENSHIN_EXTRA, ESC),&kp SPC,           &kp LALT,          U_NU,              &to U_BASE,        U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_GENSHIN_EXTRA \
 &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              \
